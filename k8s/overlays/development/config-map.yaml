@@ -4,7 +4,8 @@ data:
     [
       "https://i.imgflip.com/7jqevq.jpg",
       "https://i.imgflip.com/7jqekl.jpg",
-      "https://i0.wp.com/www.gerryanderson.com/wp-content/uploads/2013/01/Thunderbirds-gerry-anderson.jpg?fit=1600%2C1200&ssl=1"
+      "https://i0.wp.com/www.gerryanderson.com/wp-content/uploads/2013/01/Thunderbirds-gerry-anderson.jpg?fit=1600%2C1200&ssl=1",
+      "https://i.imgflip.com/7jrt37.jpg"
     ]
 kind: ConfigMap
 metadata:
