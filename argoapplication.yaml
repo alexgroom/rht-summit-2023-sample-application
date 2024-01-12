@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: random-meme-dev
+spec:
+  destination:
+    name: ''
+    namespace: project-memes-dev
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: k8s/overlays/development
+    repoURL: 'https://github.com/alexgroom/rht-summit-2023-sample-application'
+    targetRevision: HEAD
+  project: project-memes
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
